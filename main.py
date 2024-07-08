@@ -6,4 +6,6 @@ r= requests.get(url)
 # print(r)
 
 soup= BeautifulSoup(r.text,"lxml")
-print(soup)
+# print(soup)
+
+title=soup.find_all("h2",class_="featurette-heading")
