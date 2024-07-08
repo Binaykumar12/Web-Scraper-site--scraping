@@ -14,3 +14,4 @@ for i in title:
     print(i.text)
 
 heading=soup.find_all("p",class_="lead")
+print(heading)
