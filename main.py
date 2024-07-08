@@ -13,4 +13,4 @@ title=soup.find_all("h2",class_="featurette-heading")
 for i in title:
     print(i.text)
 
-heading=soup.find_all("p",class_=)
+heading=soup.find_all("p",class_="lead")
