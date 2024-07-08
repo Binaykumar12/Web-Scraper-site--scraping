@@ -9,3 +9,4 @@ soup= BeautifulSoup(r.text,"lxml")
 # print(soup)
 
 title=soup.find_all("h2",class_="featurette-heading")
+print(title)
